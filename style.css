@@ -1,0 +1,87 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #0D0D0D;
+    color: #E8DCC5;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*Defina imagem de banner da página */
+.banner{
+    background-image: url("imagens/Gemini_Generated_Image_td79fhtd79fhtd79.png");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0 , 0.5);
+
+}
+
+.banner-content{
+    width: 80%;
+
+}
+
+.bannerh1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.banner p{
+    font-size: 1.rem;
+    margin-bottom: 1rem;
+
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.5rem 1rem;
+    background-color: #E63946;
+    color: #fff;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background-color: #F77F00;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria{
+    
+}
+
+.produto{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
