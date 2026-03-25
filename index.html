@@ -1,151 +1,148 @@
-<html>
-<head>
-    <meta http-equiv="X-UA-Compatible" content="it=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahiano Sushi</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--Cabeçalho da página-->
+    <!-- Cabeçalho da página -->
     <header class="banner">
         <div class="banner-content">
             <h1>Bahiano Sushi</h1>
             <p>O melhor sushi do Bahiano apenas aqui no Brasil</p>
+
             <nav>
-                <a href="">Sushi</a>
-                <a href="">Bebidas</a>
-                <a href="">Pedido</a>
-                <a href="">Contato</a>
-
-
+                <a href="#sushib">Sushi</a>
+                <a href="#bebidas">Bebidas</a>
+                <a href="#pedido">Pedido</a>
+                <a href="#contatos">Contato</a>
             </nav>
-            
-
         </div>
     </header>
-    <!--Corpo da página-->
+
+    <!-- Corpo da página -->
     <main>
-        <!-- Seção para as sushib -->
-        <section id="sushib" class="categoria"></section>
-        <h2>Sushi do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/acaraje.png" alt="Sushi de Acarajé">  
-            <h3>Sushi de Acarajé</h3>
-            <p>Camarão suculento com vatapá cremoso e toque de pimenta envolto em uma crosta crocante inspirada no acarajé. Uma explosão em forma de sushi!</p>
-            <span class="preco">R$ 25,00</span>
-            <button class="adicionar">Adicionar</button>
+        <!-- Seção de Sushi -->
+        <section id="sushib">
+            <h2>Sushi do Bahiano</h2>
 
-        </div>
-                <section id="sushib" class="categoria"></section>
-        <h2>Sushi do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/pimenta.png" alt="Sushi de Pimenta Bahia">  
-            <h3>Sushi de Nervosa Roll</h3>
-            <p>O sushi mais picante do Brasil, um molho picante que não perdoa. Só para os corajosos!</p>
-            <span class="preco">R$ 20,00</span>
-            <button class="adicionar">Adicionar</button>
+            <div class="categoria">
+                <div class="produto">
+                    <img src="imagens/acaraje.png" alt="Sushi de Acarajé">
+                    <h3>Sushi de Acarajé</h3>
+                    <p>Camarão suculento com vatapá cremoso e toque de pimenta envolto em uma crosta crocante inspirada no acarajé. Uma explosão em forma de sushi!</p>
+                    <span class="preco">R$ 25,00</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-        </div>
-                <section id="sushib" class="categoria"></section>
-        <h2>Sushi do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/camaraoo.png" alt="Sushi de Camarao">  
-            <h3>Sushi de Camarão</h3>
-            <p>O melhor camarão diretamente da Bahia, encontrado diretamente no Mar do Rio São João!</p>
-            <span class="preco">R$ 30,00</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/pimenta.png" alt="Sushi de Pimenta Bahia">
+                    <h3>Sushi de Nervosa Roll</h3>
+                    <p>O sushi mais picante do Brasil, um molho picante que não perdoa. Só para os corajosos!</p>
+                    <span class="preco">R$ 20,00</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-        </div>
-                <section id="sushib" class="categoria"></section>
-        <h2>Sushi do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/bananadaterra.png" alt="Sushi de Banana Da Terra">  
-            <h3>Sushi de Banana Da Terra</h3>
-            <p>O melhor sushi encontrado diretamente da terra do cemitério São Francisco</p>
-            <span class="preco">R$ 18,90</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/camaraoo.png" alt="Sushi de Camarão">
+                    <h3>Sushi de Camarão</h3>
+                    <p>O melhor camarão diretamente da Bahia, encontrado diretamente no Mar do Rio São João!</p>
+                    <span class="preco">R$ 30,00</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-        </div>
-                <section id="sushib" class="categoria"></section>
-        <h2>Sushi do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/azeitedende.png" alt="Sushi de Azeite">  
-            <h3>Sushi de Azeite de Dendê</h3>
-            <p>Sushi fresquinho, com raspas de limão, finalizado no azeite de dendê</p>
-            <span class="preco">R$ 28,99</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/bananadaterra.png" alt="Sushi de Banana da Terra">
+                    <h3>Sushi de Banana da Terra</h3>
+                    <p>O melhor sushi encontrado diretamente da terra do cemitério São Francisco.</p>
+                    <span class="preco">R$ 18,90</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-        </div>
-        <!-- Seção para as bebidas -->
-                <section id="bebidas" class="categoria"></section>
-        <h2>Bebidas do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/lagrimadebaiana.png" alt="lagrimadebaiana">  
-            <h3>Lágrima de Baiana</h3>
-            <p>Um shot intenso e autêntico que condensa a essência da Bahia em um pequeno copo. Com base em vodka ou cachaça branca, este shot apresenta uma combinação única de caldo de lambão picante e camarão seco</p>
-            <span class="preco">R$ 31,90</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/azeitedende.png" alt="Sushi de Azeite de Dendê">
+                    <h3>Sushi de Azeite de Dendê</h3>
+                    <p>Sushi fresquinho, com raspas de limão, finalizado no azeite de dendê.</p>
+                    <span class="preco">R$ 28,99</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
+            </div>
+        </section>
 
-        </div>
-                <section id="bebidas" class="categoria"></section>
-        <h2>Bebidas do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/Caipirinhadedende.png" alt="A denderinha">  
-            <h3>A Dendê-rinha</h3>
-            <p>A clássica caipirinha brasileira, mas com um toque baiano inconfundível. Esta bebida apresenta a cor amarela vibrante e o sabor aveludado do azeite de dendê, misturado com cachaça artesanal e limão taiti</p>
-            <span class="preco">R$ 35,90</span>
-            <button class="adicionar">Adicionar</button>
+        <!-- Seção de Bebidas -->
+        <section id="bebidas">
+            <h2>Bebidas do Bahiano</h2>
 
-        </div>
+            <div class="categoria">
+                <div class="produto">
+                    <img src="imagens/lagrimadebaiana.png" alt="Lágrima de Baiana">
+                    <h3>Lágrima de Baiana</h3>
+                    <p>Um shot intenso e autêntico que condensa a essência da Bahia em um pequeno copo. Com base em vodka ou cachaça branca, este shot apresenta uma combinação única de caldo de lambão picante e camarão seco.</p>
+                    <span class="preco">R$ 31,90</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-                <section id="bebidas" class="categoria"></section>
-        <h2>Bebidas do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/Margaritadecacaucompimenta.png" alt="Margaritadecacau">  
-            <h3>Margarita de Cacau com Pimenta</h3>
-            <p>Uma margarita sofisticada que celebra o cacau, fruto emblemático da Bahia. Tequila de alta qualidade, licor de cacau e suco de limão fresco são a base deste coquetel.</p>
-            <span class="preco">R$ 38,00</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/Caipirinhadedende.png" alt="A Dendê-rinha">
+                    <h3>A Dendê-rinha</h3>
+                    <p>A clássica caipirinha brasileira, mas com um toque baiano inconfundível. Esta bebida apresenta a cor amarela vibrante e o sabor aveludado do azeite de dendê, misturado com cachaça artesanal e limão taiti.</p>
+                    <span class="preco">R$ 35,90</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-        </div>
+                <div class="produto">
+                    <img src="imagens/Margaritadecacaucompimenta.png" alt="Margarita de Cacau com Pimenta">
+                    <h3>Margarita de Cacau com Pimenta</h3>
+                    <p>Uma margarita sofisticada que celebra o cacau, fruto emblemático da Bahia. Tequila de alta qualidade, licor de cacau e suco de limão fresco são a base deste coquetel.</p>
+                    <span class="preco">R$ 38,00</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
 
-                <section id="bebidas" class="categoria"></section>
-        <h2>Bebidas do Bahiano</h2>
-        <div class="produto">
-            <img src="imagens/Pelourinhobrezee.png" alt="pelorinho">  
-            <h3>Pelourinho Breeze</h3>
-            <p>Inspirada nas cores vibrantes do Pelourinho, esta gin-tônica é uma explosão de frescor e sabor. Camadas de xaropes orgânicos de manga, morango e hibisco criam um visual deslumbrante, enquanto pedaços de kiwi trazem uma nota cítrica.</p>
-            <span class="preco">R$ 31,00</span>
-            <button class="adicionar">Adicionar</button>
+                <div class="produto">
+                    <img src="imagens/Pelourinhobrezee.png" alt="Pelourinho Breeze">
+                    <h3>Pelourinho Breeze</h3>
+                    <p>Inspirada nas cores vibrantes do Pelourinho, esta gin-tônica é uma explosão de frescor e sabor. Camadas de xaropes orgânicos de manga, morango e hibisco criam um visual deslumbrante, enquanto pedaços de kiwi trazem uma nota cítrica.</p>
+                    <span class="preco">R$ 31,00</span>
+                    <button class="adicionar">Adicionar</button>
+                </div>
+            </div>
+        </section>
 
-        </div>
-        <!-- Seção para os pedidos -->
+        <!-- Seção de Pedidos -->
         <section id="pedido">
             <h2>Pedidos</h2>
             <ul id="lista-pedido"></ul>
-            <p id="total">Total: R$0,00</p>
-            <button id="finalizar-pedido">FInalizar Pedido</button>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">Finalizar Pedido</button>
         </section>
-        <!-- Seção para os contatos -->
+
+        <!-- Seção de Contatos -->
         <section id="contatos">
             <h2>Contatos</h2>
             <p>Entre em contato conosco:</p>
-            <a href="https://wa.me/67984390638" target="_blank">WhatsApp</a>
-            <a href="https://instragram.com/diogooliveira_tex">Instagram</a>
 
-
+            <div class="redes-sociais">
+                <a href="https://wa.me/67984390638" target="_blank">WhatsApp</a>
+                <a href="https://instagram.com/diogooliveira_tex" target="_blank">Instagram</a>
+            </div>
         </section>
     </main>
-    <!--Rodapé da página-->
+
+    <!-- Rodapé -->
     <footer>
-        <p> &copy; Todos os direitos reservados</p>
-        <p><em>Desenvolvido por:</em><a href="https://www.linkedin.com/in/diogo-oliveira-46a27a313/">Diogo de Oliveira</a> 
+        <p>&copy; Todos os direitos reservados</p>
+        <p>
+            <em>Desenvolvido por:</em>
+            <a href="https://www.linkedin.com/in/diogo-oliveira-46a27a313/" target="_blank">Diogo de Oliveira</a>
         </p>
-
-
     </footer>
 
-    <script>src="script.js"</script>
+    <script src="script.js"></script>
 </body>
+
 </html>
