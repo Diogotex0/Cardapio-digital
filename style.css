@@ -159,6 +159,7 @@ section h2 {
 #total {
     font-weight: bold;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 #finalizar-pedido {
@@ -169,10 +170,12 @@ section h2 {
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s ease;
+    
 }
 
 #finalizar-pedido:hover {
     background-color: #F77F00;
+    
 }
 
 /* Contato */
